@@ -1,0 +1,31 @@
+{
+  "name": "way-one-react",
+  "version": "1.0.0",
+  "description": "In the part of 70 way to FSD.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGopi777/way-one-react.git"
+  },
+  "author": "IGopi570",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IGopi777/way-one-react/issues"
+  },
+  "homepage": "https://github.com/IGopi777/way-one-react#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.10",
+    "nodemon": "^1.18.6",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.8.0"
+  }
+}
